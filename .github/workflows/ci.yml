@@ -43,4 +43,4 @@ jobs:
         if: ${{ always() }}
         with:
           files: |
-            junit/test-results-${{ matrix.python-version }}.xml      
+            junit/test-result-${{ matrix.python-version }}.xml      
