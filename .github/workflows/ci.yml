@@ -4,12 +4,7 @@ on:
     push:
       branches:
         - main
-    workflow_dispatch: 
-      inputs: 
-        reason: 
-          description: 'Reason for manual run'
-          required: false
-          default: 'Manual testing'
+    workflow_dispatch:
     pull_request:
 
 jobs:
